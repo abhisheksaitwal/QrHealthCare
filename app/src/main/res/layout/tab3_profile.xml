@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/colorWhite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileicon"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_gravity="start"
+            android:src="@drawable/default_profile_image"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="2dp"/>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/name_of_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abhishek Saitwal"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="20sp"
+                    android:paddingTop="26dp"
+                    android:paddingLeft="20dp"/>
+
+
+                <TextView
+                     android:id="@+id/mobilenumber_of_user"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="94218826321"
+                     android:textColor="@color/colorSecondaryText"
+                     android:textSize="15sp"
+                     android:paddingLeft="20dp"/>
+
+             </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="17sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/email_of_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abhisheksaitwal@gmail.com"
+            android:textColor="@color/colorSecondaryText"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="17sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+
+        <TextView
+            android:id="@+id/address_of_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Near Maharana Pratap Highschool Chikhli Dist Buldhana"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="15sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick=""
+            android:text="Edit Profile"
+            android:paddingTop="5dp"
+            android:paddingRight="7dp"
+            android:textSize="14dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/bg_screen3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:background="#fafafa" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Details"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact 1"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="17sp"
+            android:paddingLeft="15dp"
+            android:paddingTop="6dp"/>
+
+
+        <TextView
+            android:id="@+id/emergency_contact_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="8408957685"
+            android:textColor="@color/bg_screen3"
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:paddingLeft="15dp"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact 2"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="17sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/emergency_contact_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="7588344368"
+            android:textColor="@color/bg_screen3"
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal Doctor Info"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18sp"
+            android:paddingTop="6dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/doctor_user"
+            android:text="Doctor Name"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="17sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/contact_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="7588344368"
+            android:textColor="@color/bg_screen3"
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/doctor_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Near Maharana Pratap Highschool Chikhli Dist Buldhana"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="15sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick=""
+            android:text="Edit Emergency Details"
+            android:textAlignment="textEnd"
+            android:paddingTop="5dp"
+            android:paddingRight="7dp"
+            android:textSize="14dp"
+            android:textColor="@color/bg_screen3" />
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="#fafafa"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health Details"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Height"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="17sp"
+                    android:paddingTop="6dp"
+                    android:paddingLeft="15dp"/>
+
+
+                <TextView
+                    android:id="@+id/height_of_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="158"
+                    android:textSize="15sp"
+                    android:paddingTop="4dp"
+                    android:textColor="@color/colorSecondaryText"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="weight"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="17sp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="6dp"/>
+
+
+                <TextView
+                    android:id="@+id/weight_of_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="58"
+                    android:textColor="@color/colorSecondaryText"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="17sp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="6dp"/>
+
+
+                <TextView
+                    android:id="@+id/age_of_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="58"
+                    android:textColor="@color/colorSecondaryText"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Blood group"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="17sp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="6dp"/>
+
+
+                <TextView
+                    android:id="@+id/bloodgroup_of_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="A+"
+                    android:textColor="@color/colorSecondaryText"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diseases"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="17sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/diseases_of_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piles , Blood Pressure"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="15sp"
+            android:paddingTop="4dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Any Note In Case of Emergency"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="17sp"
+            android:paddingLeft="15dp"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/note_of_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Just Grab Water and pour in my mouth"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="15sp"
+            android:paddingLeft="15dp"
+            android:paddingTop="4dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick=""
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            android:textSize="14sp"
+            android:text="Edit Health Details"
+            android:textAlignment="textEnd"
+            android:textColor="@color/bg_screen3"/>
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="#fafafa"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
